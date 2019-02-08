@@ -1,6 +1,6 @@
-Feature('Navigation test');
+Feature('Test menu Navigation homepage');
 
-Scenario('Test des menus dans le header', (I) => {
+Scenario('Test menu Navigation homepage', (I) => {
   I.amOnPage('/');
   I.see('L’Ecole', '.menu-item a');
   I.see('Admissions', '.menu-item a');

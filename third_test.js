@@ -1,4 +1,4 @@
-Feature('Axes métiers test');
+Feature('Test de l\'affichage des 5 axes métiers de l\'IIM');
 
 Scenario('Test de l\'affichage des 5 axes métiers de l\'IIM', (I) => {
   I.amOnPage('/');
